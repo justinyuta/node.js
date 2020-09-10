@@ -1,7 +1,7 @@
 
 
 
-
+// New remark for testing 
 
 exports.insert = (req, res) => {
    let salt = crypto.randomBytes(16).toString('base64');
